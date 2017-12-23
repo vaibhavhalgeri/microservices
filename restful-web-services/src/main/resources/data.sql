@@ -1,0 +1,7 @@
+insert into user values(1001,sysdate(),'AB')
+insert into user values(1002,sysdate(),'Messi')
+insert into user values(1003,sysdate(),'Ronaldo')
+insert into user values(1004,sysdate(),'Kohli')
+insert into post values(1101,'My first post',1001)
+insert into post values(1102,'haloween',1001)
+insert into post values(1103,'Thanksgiving celebrations!',1003)
