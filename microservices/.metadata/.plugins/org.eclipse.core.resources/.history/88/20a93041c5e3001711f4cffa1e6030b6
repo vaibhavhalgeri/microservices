@@ -1,0 +1,8 @@
+package com.in28minutes.microservices.currencyconversionservice;
+
+import org.springframework.cloud.netflix.feign.FeignClient;
+
+@FeignClient(name="currency-exchange-service",url="localhost:8000")
+public interface CurrencyExchangeServiceProxy {
+	
+}
